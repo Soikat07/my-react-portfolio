@@ -2,9 +2,15 @@ import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
 import heroImage from '../assets/heroImage.png'
 import { Link } from 'react-scroll';
 import { FaDownload } from 'react-icons/fa';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 const Home = () => {
 
+  useEffect(() => {
+    Aos.init();
+  }, []);
 
   return (
     <>
@@ -13,14 +19,18 @@ const Home = () => {
         className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
       >
         <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-          <div className="flex flex-col justify-center h-full mt-12">
+          <div
+            data-aos="fade-right"
+            data-aos-duration="3000"
+            className="flex flex-col justify-center h-full mt-12"
+          >
             <p className="text-gray-400 sm:text-2xl text-base">
               Hi, my name is
             </p>
-            <h1 className="text-2xl sm:text-7xl font-bold text-white">
+            <h1 className="text-4xl md:text-7xl font-bold text-white">
               Soikat Saha
             </h1>
-            <h2 className="text-xl sm:text-7xl font-bold text-[#ccd6f6]">
+            <h2 className="text-2xl md:text-7xl font-bold text-[#ccd6f6]">
               I'm a MERN Stack Developer
             </h2>
             <p className="text-gray-500 py-4 max-w-md">
@@ -54,6 +64,8 @@ const Home = () => {
           <div>
             <img
               src={heroImage}
+              data-aos="fade-left"
+              data-aos-duration="3000"
               alt="my profile"
               className="rounded-2xl mx-auto w-2/3 md:w-full"
             />

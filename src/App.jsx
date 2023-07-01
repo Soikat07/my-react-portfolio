@@ -7,7 +7,6 @@ import Navbar from "./components/Navbar"
 import Portfolio from "./components/Portfolio"
 import SocialLinks from "./components/SocialLinks"
 
-
 function App() {
 
   return (

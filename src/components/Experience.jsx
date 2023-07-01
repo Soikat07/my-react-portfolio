@@ -73,7 +73,11 @@ const Experience = () => {
       className="bg-gradient-to-b from-gray-800 to-black w-full md:h-screen"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
-        <div className='mt-16 md:mt-0'>
+        <div
+          data-aos="fade-right"
+          data-aos-duration="3000"
+          className="mt-16 md:mt-0"
+        >
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
             Experience
           </p>
@@ -83,6 +87,9 @@ const Experience = () => {
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
           {techs.map(({ id, src, title, style }) => (
             <div
+              data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
               key={id}
               className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
             >

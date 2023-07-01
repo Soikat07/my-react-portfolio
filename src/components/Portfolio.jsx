@@ -31,7 +31,11 @@ const Portfolio = () => {
       className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="pb-8 mt-16 md:mt-0">
+        <div
+          data-aos="fade-right"
+          data-aos-duration="3000"
+          className="pb-8 mt-16 md:mt-0"
+        >
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Portfolio
           </p>
@@ -40,7 +44,12 @@ const Portfolio = () => {
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
           {portfolios.map(({ id, src, href, code }) => (
-            <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
+            <div
+              key={id}
+              data-aos="zoom-in-up"
+              data-aos-duration="3000"
+              className="shadow-md shadow-gray-600 rounded-lg"
+            >
               <img
                 src={src}
                 alt=""
