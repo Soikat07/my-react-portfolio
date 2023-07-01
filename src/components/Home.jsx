@@ -22,7 +22,7 @@ const Home = () => {
           <div
             data-aos="fade-right"
             data-aos-duration="3000"
-            className="flex flex-col justify-center h-full mt-12"
+            className="flex flex-col justify-center h-full mt-16 md:mt-0"
           >
             <p className="text-gray-400 sm:text-2xl text-base">
               Hi, my name is
