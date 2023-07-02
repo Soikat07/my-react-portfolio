@@ -42,7 +42,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: '../../public/SoikatSaha_Resume.pdf',
+      href: './SoikatSaha_Resume.pdf',
       style: 'rounded-br-md bg-[#565f69]',
       download: true,
     },

@@ -50,7 +50,7 @@ const Home = () => {
                 </span>
               </Link>
               <button className="group text-white w-fit px-6 py-3 my-2 md:hidden flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer hover:scale-105">
-                <a href="../../public/SoikatSaha_Resume.pdf" download={true}>
+                <a href="./SoikatSaha_Resume.pdf" download={true}>
                   Resume
                 </a>
                 <span>
