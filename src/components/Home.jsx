@@ -13,16 +13,15 @@ const Home = () => {
   }, []);
 
   return (
-    <>
       <div
         name="home"
-        className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
+        className="h-screen w-screen bg-gradient-to-b from-black via-black to-gray-800"
       >
         <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
           <div
             data-aos="fade-right"
             data-aos-duration="3000"
-            className="flex flex-col justify-center h-full mt-16 md:mt-0"
+            className="flex flex-col justify-center h-full mt-14"
           >
             <p className="text-gray-400 sm:text-2xl text-base">
               Hi, my name is
@@ -72,7 +71,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-    </>
   );
 };
 

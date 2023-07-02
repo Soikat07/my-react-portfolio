@@ -31,7 +31,7 @@ const Navbar = () => {
   ];
   
   return (
-    <div className="flex justify-between items-center text-white bg-black fixed z-10 w-screen px-4 py-4">
+    <div className="flex justify-between items-center text-white bg-black fixed z-10 w-screen md:px-8 py-4">
       <div>
         <h1 className="text-5xl font-signature ml-2">Soikat</h1>
       </div>

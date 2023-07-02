@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full md:h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white"
+      className="w-screen md:h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white"
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div
@@ -53,7 +53,7 @@ const Contact = () => {
 
             <button data-aos="fade-down"
                     data-aos-easing="linear"
-                    data-aos-duration="1500" className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
+                    data-aos-duration="5000" className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
               Let's talk
             </button>
           </form>
